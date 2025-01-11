@@ -1,10 +1,11 @@
 import React from "react";
-import { MapContainer, TileLayer, Marker, Popup, Circle } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, Circle, Polygon } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 
 const ResourceMap = () => {
   // Example hardcoded marker data
-  const markers = [
+  // Replace with actual data
+  const markers = [  
     { id: 1, position: [37.54812, -77.44675], name: "Marker 1", description: "This is the first marker" },
     { id: 2, position: [37.55012, -77.44475], name: "Marker 2", description: "This is the second marker" },
   ];
